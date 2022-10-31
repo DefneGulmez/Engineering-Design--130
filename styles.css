@@ -1,0 +1,53 @@
+
+.nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 rem;
+    height: 100vh;
+    background-image: url(/src/PngItem_2131919.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    text-decoration: none;
+
+    
+}
+.nav ul{
+    padding: 5px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem; 
+    text-decoration: none;
+    position: absolute;
+    bottom: 15%;
+    left: 53%;
+    
+}
+.nav li{
+    padding: 5px;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem; 
+    text-decoration: none;
+    position: absolute;
+    bottom: 10%;
+    left: 52%;
+}
+.nav li:hover{
+    background-color: rgb(63, 146, 120); 
+    color: white;
+    text-decoration: none!important;
+}
+.nav a{
+    text-decoration: none!important;
+    color: rgb(1, 17, 17);
+}
+
+
+
+
